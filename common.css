@@ -1,0 +1,84 @@
+@import url('https://fonts.cdnfonts.com/css/source-sans-pro');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* Colors */
+
+:root {
+    --white: #FFFFFF;
+    --whiteEc: #ECECEC;
+    --whiteD7: #D7D7D7;
+    --black: #000000;
+    --black09: #090909;
+    --black14: #141414;
+    --black20: #202020;
+    --gray50: #505050;
+}
+
+/* Colors */
+
+
+/* General Classes */
+
+.flex { display: flex; }
+
+ul li { list-style-type: none; }
+
+.fw400 { font-weight: 400; }
+
+.fw600 { font-weight: 600; }
+
+.fw700 { font-weight: 700; }
+
+a { text-decoration: none; }
+
+/* General Classes */
+
+
+
+/* ******************************************************************* */
+
+                                /* Header */
+header {
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em 1.5em 1em 1.25em;
+}
+
+ul {
+    gap: 2em;
+}
+
+li a {
+    font-size: 0.75rem;
+    color: var(--black09);
+}
+
+                                /* Footer */
+            
+footer {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    padding-top: 2.32em;
+    padding-bottom: 2.32em;
+    background-color: var(--black20);
+}
+
+.footer-title {
+    font-size: 0.75rem;
+    color: var(--whiteEc);
+}
+
+.copyright {
+    font-size: 0.75rem;
+    color: var(--whiteD7);
+}
+
