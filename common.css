@@ -73,7 +73,8 @@ main {
     margin-bottom: 1.69em;
 }
 
-.blog img {
+.blog img,
+.blog-add img {
     width: 100%;
     margin-bottom: 0.875em;
 }

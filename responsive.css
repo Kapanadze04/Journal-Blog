@@ -1,0 +1,146 @@
+@media (max-width: 1084px) {
+    .hero-img-desktop { display: none; }
+
+    .blog-add { display: none; }
+
+    .hero-blog-img-desktop { display: none; }
+}
+
+@media (min-width: 1085px) {
+                                    /* Header */
+
+    header { padding: 1.5em 3.312em 1.5em 3.312em; }
+
+    ul { gap: 3em; }
+
+    li a { font-size: 1rem; }
+
+                                    /* Hero Section */
+
+    .hero-img-mobile { display: none; }
+
+    .hero-img-desktop { 
+        width: 100%; 
+        margin-bottom: 3.312em;
+    }
+
+    .hero-date {
+        top: 370px;
+        left: 53px;
+        font-size: 1rem;
+    }
+
+    .hero-title {
+        top: 399px;
+        left: 53px;
+        font-size: 2.5rem;
+        letter-spacing: -1.2px;
+    }
+
+    .hero-paragraph {
+        top: 452px;
+        left: 53px;
+        right: 416px;
+    }
+
+
+    /* Main */
+
+    main {
+        padding-left: 3.3125em;
+        padding-right: 3.3125em;
+        flex-direction: column;
+        flex-flow: row wrap;
+        gap: 2.5em;
+        margin-bottom: 1.94em;
+    }
+
+    .blog,
+    .blog-add 
+        { width: 30.6%; }
+
+    .blog-date { margin-bottom: 1em; }
+
+
+    /* ** */
+
+    .view-more { margin-bottom: 3.18em; }
+    
+    .view-more a { font-size: 0.875rem; }
+
+
+
+
+
+
+                                                                            /* Blog Page */
+
+                                    /* Hero */
+
+    .hero {
+        margin-top: 4.375em;
+        padding-left: 3.3125em;
+        padding-right: 3.3125em;
+    }
+
+    .hero-date {
+        font-size: 1rem;
+        margin-bottom: 1.5em;
+        margin-left: 4.5em;
+    }
+
+    .hero-title {
+        font-size: 2.25rem;
+        letter-spacing: -1.08px;
+        margin-bottom: 0.75em;
+        margin-left: 1.889em;
+    }
+
+    .hero-paragraph {
+        margin-bottom: 2.25em;
+        margin-left: 4.25em;
+        width: 842px;
+    }
+
+    .hero-blog-img { display: none; }
+
+    .hero-blog-img-desktop {
+        width: 100%;
+        margin-bottom: 2.25em;
+    }
+
+
+                                    /* Info */
+
+    .info-txt {
+        padding-left: 7.5625em;
+        padding-right:  7.5em;
+        margin-bottom: 4.5625em;
+    }
+
+    .recent {
+        margin-bottom: 1.75em;
+    }
+    
+    .recent-post {
+        font-size: 1.5rem;
+    }
+
+
+
+
+                                                                    /* About Page */
+    
+    .personal {
+        display: flex;
+        align-items: center;
+        gap: 33px;
+        margin-top: 5.625em;
+        margin-bottom: 4em;
+        padding-left:  3.3125em;
+        padding-right:  3.3125em;
+    }
+
+    .personal-title { font-size: 2.25rem; }
+
+}
