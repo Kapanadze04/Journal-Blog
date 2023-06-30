@@ -96,7 +96,8 @@ main {
     color: var(--gray50);
 }
 
-.blog {
+.blog,
+.blog-add {
     display: flex;
     flex-direction: column;
 }
