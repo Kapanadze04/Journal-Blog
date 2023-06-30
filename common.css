@@ -96,6 +96,11 @@ main {
     color: var(--gray50);
 }
 
+.blog {
+    display: flex;
+    flex-direction: column;
+}
+
 
                                 /* Info Txt */
 
