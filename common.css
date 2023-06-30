@@ -43,6 +43,9 @@ a { text-decoration: none; }
 
 
 
+
+
+
 /* ******************************************************************* */
 
                                 /* Header */
@@ -52,9 +55,7 @@ header {
     padding: 1em 1.5em 1em 1.25em;
 }
 
-ul {
-    gap: 2em;
-}
+ul { gap: 2em; }
 
 li a {
     font-size: 0.75rem;
