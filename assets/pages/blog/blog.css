@@ -32,32 +32,3 @@
 }
 
 
-                                /* Info Txt */
-
-.info-txt {
-    padding-left: 1.25em;
-    padding-right: 1.25em;
-    margin-bottom: 3.125em;
-}
-
-.info-question {
-    font-size: 1rem;
-    color: var(--black15);
-}
-
-.info-paragraph {
-    font-size: 1rem;
-    margin-top: 1.5em;
-    margin-bottom: 1.5em;
-    color: var(--black15);
-}
-
-.recent {
-    text-align: center;
-    margin-bottom: 1.69em;
-}
-
-.recent-post {
-    font-size: 1rem;
-    color: var(--black);
-}
